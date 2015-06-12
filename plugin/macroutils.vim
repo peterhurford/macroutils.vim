@@ -4,4 +4,4 @@
 
 let @c = "i's,i'lll"
 let @j = 'i"A", J'
-let @l = 80lF i 0
+let @l = "80lF i 0"
