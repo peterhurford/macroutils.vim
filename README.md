@@ -27,3 +27,13 @@ If you have a line that is longer than 80 characters long, this macro will find 
 
 
 #### More to come...
+
+
+## Installation
+
+You've done that, you can install this plugin using [pathogen.vim](https://github.com/tpope/vim-pathogen) with the following commands:
+
+```
+cd ~/.vim/bundle
+git clone https://github.com/peterhurford/macroutils.vim
+```
