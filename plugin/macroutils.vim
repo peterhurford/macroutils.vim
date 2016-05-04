@@ -3,5 +3,7 @@
 " Version: 1.1
 
 let @c = "i's,i'lll"
-let @j = 'i"A", J'
-let @l = "80lF i 0"
+let @J = 'i"A", J'
+let @j = 'i"A",'
+let @l = "80lF i
+ 0"
