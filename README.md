@@ -10,15 +10,25 @@ Takes a comma separated list of words and wraps them with single quotes.
 `words, words, words` becomes `'words', 'words', 'words` with `3@c`.  (You'll have to add the last quote yourself.)
 
 
-#### @j
+#### @j and @J
 
-Takes a return separated list of words and joins them into one line, wrapped in double quotes.  E.g.,
+Takes a return separated list of words wrapped in double quotes.  E.g.,
 
 hello
 hi
 how are you
 
-would become `"hello", "hi", "how are you"`
+would become:
+
+```
+"hello",
+"hi",
+"how are you"`
+```
+
+with `@J`, they are joined into one line:
+
+`"hello", "hi", "how are you"`
 
 
 #### @l
